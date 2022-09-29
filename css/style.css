@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.web-app {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* Header */
+.header {
+    background-color: #ff0000;
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+
+.header span {
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    padding: 0.3rem 0.3rem;
+}
+
+.header span:first-child {
+    margin-right: 0.1rem;
+}
+
+.fa-solid {
+    vertical-align: middle;
+}
+
+.span-container {
+    position: absolute;
+    top: 10px;
+    right: 0.1rem;
+}
+
+/* Main */
+
+.main {
+    padding: 2vh 5vw;
+}
+
+.main-container {
+    display: flex;
+    row-gap: 1rem;
+    column-gap: .5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.img-container {
+    max-width: calc((100% / 7) - 0.5rem);
+
+}
+
+.img-walrus {
+    width: 100%;
+    display: inline-block;
+}
+
+
+.nav {
+    height: 100px;
+    background-color: red;
+}
